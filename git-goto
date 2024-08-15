@@ -1,9 +1,11 @@
-#!/usr/bin/env sh
+#!/bin/zsh
 
 # git-goto: Switch to any git branch interactively.
 #
 # If the script is discoverable via PATH, then git will pick it up and make it
 # available as `goto` subcommand. 
+#
+# Depending on your shell you may need to make the first line `#!/usr/bin/env sh`
 # 
 # For info on git subcommands, see https://opensource.com/article/22/4/customize-git-subcommands
 #
